@@ -1,13 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import './Assets/Desktop.css'
 import './Assets/mobile.css'
-import { BrowserRouter as Router, NavLink, Link } from "react-router-dom";
-import { Navbar, Nav, Form, FormControl, Button, Image, Container } from 'react-bootstrap';
+import { BrowserRouter as Router} from "react-router-dom";
+
 import Header from './component/Header';
-import DemoCar from './component/DemoCar';
-import Car from './component/car';
+import Sliders from './component/Sliders';
+import Tours from './component/Tours';
 import Footer from './component/footer';
 import Routing from './component/Routing'
 
@@ -18,11 +16,11 @@ export default function App() {
     <div>
       <Router>
       <Header />
-      <DemoCar />
-      <div className="hotel">
+      <Sliders />
+      <div className="tours">
         <h1>Upcoming Group Tours</h1>
       </div>
-      <Car />
+      <Tours/>
       <Routing/>
       <Footer/>
       </Router>

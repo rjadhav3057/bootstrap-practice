@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import { Image } from 'react-bootstrap';
 
-export default function car() {
+export default function Tours() {
     return (
         <div>
 

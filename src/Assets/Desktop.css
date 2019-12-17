@@ -3,52 +3,54 @@
   .d{
     color: black;
   }
+
+  
 }
 
 .nav-bg-color-text{
-    background-color:#ff9933;
-    font-size: 20px;
-  }
+  background-color:#ff9933;
+  font-size: 20px;
+}
+
+.tours{
+  background-color: chocolate;
+  margin: 5%;
+  height: 80px;
+  color: white;
+  text-align: center;
+}
+.t-border{
+  border: 1px solid black;
+  margin: 10px;
+}
+.d{
+  text-align: center;
+    color:darkblue;
+    padding: 6%;
+}
+.active{
+   
+  color:white;
   
-  .hotel{
-    background-color: chocolate;
-    margin: 5%;
-    height: 80px;
-    color: white;
-    text-align: center;
-  }
-  .t-border{
-    border: 1px solid black;
-    margin: 10px;
-  }
-  .d{
-    text-align: center;
-      color:darkblue;
-      padding: 6%;
-  }
-  .active{
-     
-    color:white;
-    
-  }
+}
+
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
   
   
+}
+
+li{
+  display: inline-block;
+  color: #000;
+  padding: 32px 32px;
   
-  ul {
-    list-style-type: none;
-    padding: 0;
-    
-    
-  }
-  
-  li{
-    display: inline-block;
-    color: #000;
-    padding: 32px 32px;
-    
-    font: bold;
-  }
-  
-  .header{
-  background-color: darkorange;
-  }
+  font: bold;
+}
+
+.header{
+background-color: darkorange;
+}
