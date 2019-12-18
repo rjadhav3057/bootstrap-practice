@@ -26,7 +26,7 @@ export default class Employee extends React.Component {
     renderTableData = () => {
         return (
             <div>
-                <div className="hotel">
+                <div className="tours">
                     <h1>Employee Details</h1>
                 </div>
                 <Table striped bordered hover>

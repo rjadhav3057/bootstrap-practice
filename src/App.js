@@ -7,13 +7,15 @@ import Header from './component/Header';
 import Sliders from './component/Sliders';
 import Tours from './component/Tours';
 import Footer from './component/footer';
-import Routing from './component/Routing'
+import Routing from './component/Routing';
+import LoginForm from './component/LoginForm';
 
 
 
 export default function App() {
   return (
     <div>
+
       <Router>
       <Header />
       <Sliders />

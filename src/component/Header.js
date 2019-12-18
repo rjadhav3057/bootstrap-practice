@@ -2,6 +2,7 @@ import React from 'react'
 
 import { BrowserRouter as Router, NavLink, Link } from "react-router-dom";
 import { Navbar, Nav, Form, FormControl, Button, Image, } from 'react-bootstrap';
+import LoginForm from './LoginForm';
 
 
 export default function Header() {
@@ -9,8 +10,9 @@ export default function Header() {
         <div>
 
             <Navbar expand="lg" className="header" fixed="top">
-                <Navbar.Brand href="#"><img src="images/LivianoUniverseLogo.jpg" alt="First slide" height="100px"/>
-                Liviano Rooms
+                <Navbar.Brand href="#">
+                    <img src="images/LivianoUniverseLogo.jpg" alt="First slide" height="100px"/>
+                    Liviano Rooms
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -24,7 +26,7 @@ export default function Header() {
                     </Nav>
                     <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                        <Button variant="outline-success">Search</Button>
+                        <LoginForm/>
                     </Form>
                 </Navbar.Collapse>
             </Navbar>

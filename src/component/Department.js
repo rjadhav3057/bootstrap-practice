@@ -36,7 +36,7 @@ export default class Department extends React.Component {
     renderTableData = () => {
         return (
             <div>
-                <div className="hotel">
+                <div className="tours">
                     <h1>Department Details</h1>
                 </div>
                 <Table striped bordered hover>

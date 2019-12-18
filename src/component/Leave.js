@@ -34,7 +34,7 @@ export default class Leave extends React.Component {
     renderTableData = () => {
         return (
             <div>
-                <div className="hotel">
+                <div className="tours">
                     <h1>Leave Details</h1>
                 </div>
                 <Table striped bordered hover>
