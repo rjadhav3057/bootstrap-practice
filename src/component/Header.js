@@ -8,25 +8,22 @@ import LoginForm from './LoginForm';
 export default function Header() {
     return (
         <div>
-
             <Navbar expand="lg" className="header" fixed="top">
                 <Navbar.Brand href="#">
-                    <img src="images/LivianoUniverseLogo.jpg" alt="First slide" height="100px"/>
-                    Liviano Rooms
+                    <img src="images/LivianoUniverseLogo.jpg" alt="First slide" height="50px" />
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" className="box-size" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
-                        <ul>
-                            <li><NavLink exact activeClassName="active" to="/">Home</NavLink></li>
-                            <li><NavLink exact activeClassName="active" to="/Employee">Employee</NavLink> </li>
-                            <li><NavLink exact activeClassName="active" to="/Department">Department</NavLink></li>
-                            <li><NavLink exact activeClassName="active" to="/Leave">Leave</NavLink></li>
+                    <Nav className="header-name">
+                        <ul className="header-column">
+                            <li className="header-column-link"><NavLink className="sass" exact to="/" >Home</NavLink></li>
+                            <li className="header-column-link"><NavLink className="sass" exact to="/Employee">Employee</NavLink> </li>
+                            <li className="header-column-link"><NavLink className="sass" exact to="/Department">Department</NavLink></li>
+                            <li className="header-column-link"><NavLink className="sass" exact to="/Leave">Leave</NavLink></li>
                         </ul>
                     </Nav>
                     <Form inline>
-                        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                        <LoginForm/>
+                        <LoginForm />
                     </Form>
                 </Navbar.Collapse>
             </Navbar>

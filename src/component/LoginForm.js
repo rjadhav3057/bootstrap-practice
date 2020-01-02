@@ -60,8 +60,8 @@ export class LoginForm extends Component {
 
                     {props => (
                         <>
-                            <Button variant="primary" onClick={this.handleShow}>
-                              Login
+                            <Button variant="light" onClick={this.handleShow}>
+                                Login
                        </Button>
 
                             <Modal show={this.state.show} onHide={this.handleClose}>
