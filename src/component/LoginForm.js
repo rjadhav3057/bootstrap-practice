@@ -60,7 +60,7 @@ export class LoginForm extends Component {
 
                     {props => (
                         <>
-                            <Button variant="light" onClick={this.handleShow}>
+                            <Button variant="light" className="header-login-button" onClick={this.handleShow}>
                                 Login
                        </Button>
 
